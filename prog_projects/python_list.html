@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- For the nav bar -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- End nav bar -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Projects</title>
+    <link rel = "stylesheet" href = "/style.css">
+</head>
+<body class = "margined_body" id= "black_background">
+        <!-- title -->
+    <h1 class = "page_title_text">
+        Python Projects
+    </h1>
+    <div id="nav-placeholder">
+      
+    </div>
+
+    <section class = "sub_section">
+      <div class = "section_content">
+        <img class = "sub_section_img " src = "/resources/imgs/question_mark.png">
+        <h1 class = "sub_section_title">About</h1>
+        <p class = "sub_section_text">
+          Here is a list of the projects I've done in Python.
+          If you click the sections, they'll take you to the GitHub.
+        </p>
+      </div>
+    </section>
+
+  <a href="https://github.com/LexingtonWhalen/KunOnYomiFrequency" target = "_blank">
+    <section class = "sub_section--link">
+      <div class = "section_content">
+        <img class = "sub_section_img " src = "/resources/imgs/gears.png">
+        <h1 class = "sub_section_title">Kanji Readings</h1>
+        <p class = "sub_section_text">
+          Analysis of the most frequent possible readings of the most commonly used Kanji characters.
+        </p>
+      </div>
+    </section>
+  </a>
+
+  <a href="https://github.com/LexingtonWhalen/JoJoPoseEstimation" target = "_blank">
+    <section class = "sub_section--link">
+      <div class = "section_content">
+        <img class = "sub_section_img " src = "/resources/imgs/gears.png">
+        <h1 class = "sub_section_title">JoJo Pose Estimation</h1>
+        <p class = "sub_section_text">
+          Using OpenCV and OpenPose to recognize poses.
+        </p>
+      </div>
+    </section>
+  </a>
+
+  <a href="https://github.com/LexingtonWhalen/PoseAngleEstimation" target = "_blank">
+    <section class = "sub_section--link">
+      <div class = "section_content">
+        <img class = "sub_section_img " src = "/resources/imgs/gears.png">
+        <h1 class = "sub_section_title">Pose Angle Estimation</h1>
+        <p class = "sub_section_text">
+          Using OpenCV and OpenPose to calculate body angles.
+        </p>
+      </div>
+    </section>
+  </a>
+
+
+</div>
+<script>
+$(function()
+  {$("#nav-placeholder").load("/nav.html");});
+</script>
+</body>
+</html>

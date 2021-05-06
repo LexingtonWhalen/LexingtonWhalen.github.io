@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- For the nav bar -->
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <!-- End nav bar -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Work</title>
+    <link rel = "stylesheet" href = "/style.css">
+</head>
+<body class = "margined_body" id= "black_background">
+        <!-- title -->
+    <h1 class = "page_title_text">
+        Class Work
+    </h1>
+    <div id="nav-placeholder">
+    
+    </div>
+
+    <section class = "sub_section">
+      <div class = "section_content">
+        <img class = "sub_section_img " src = "/resources/imgs/question_mark.png">
+        <h1 class = "sub_section_title">About</h1>
+        <p class = "sub_section_text">
+          Here I keep content required by my classes. Either it was assigned or I found it interesting.
+          Click the sections to see more.
+        </p>
+      </div>
+    </section>
+
+    <section class = "sub_section--link">
+      <div class = "section_content">
+        <img class = "sub_section_img " src = "/resources/imgs/apple.png">
+        <h1 class = "sub_section_title">CSCE 190</h1>
+        <p class = "sub_section_text">
+          Projects required for CSCE 190, Computing in the Modern World.
+        </p>
+      </div>
+    </section>
+    <section class = "sub_section--link">
+      <div class = "section_content">
+        <img class = "sub_section_img " src = "/resources/imgs/apple.png">
+        <h1 class = "sub_section_title">CSCE 211</h1>
+        <p class = "sub_section_text">
+          Projects required for CSCE 211, Digital Logic Design.
+        </p>
+      </div>
+    </section>
+
+
+</div>
+            
+</body>
+
+<script>
+  $(function(){
+    $("#nav-placeholder").load("/nav.html");
+  });
+</script>
+</html>
